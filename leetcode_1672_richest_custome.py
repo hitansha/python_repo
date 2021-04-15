@@ -50,4 +50,9 @@ class Solution:
                 #print(a)
                 c.append(a)
         return max(c)
+		
+
+class Solution:
+    def maximumWealth(self, accounts: List[List[int]]) -> int:
+        return max(sum(account) for account in accounts)
         
